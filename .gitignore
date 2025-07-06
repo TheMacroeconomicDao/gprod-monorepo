@@ -151,6 +151,9 @@ test-results/
 playwright-report/
 playwright/.cache/
 
+# MCP Memory
+.giga/
+
 # Monorepo specific
 # Don't ignore submodule directories themselves
 # but ignore their internal .git if they're not proper submodules
@@ -158,3 +161,5 @@ apps/*/.git
 !apps/*/
 packages/*/.git
 !packages/*/ 
+# MCP Memory
+.giga/
